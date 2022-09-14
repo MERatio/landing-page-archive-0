@@ -1,5 +1,6 @@
 :root {
   --white: #f9faf8;
+  --white-low: #e1e3e7;
 }
 
 html {
@@ -17,9 +18,16 @@ body {
   box-sizing: inherit;
 }
 
-.nav {
+.nav,
+.hero {
   background-color: #1f2937;
-  padding: 8px 10% 8px 15%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.nav {
+  padding-top: 8px;
+  padding-bottom: 8px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -40,6 +48,53 @@ body {
 
 .nav-list-item-link {
   text-decoration: none;
-  color: var(--white);
+  color: var(--white-low);
   font-size: 18px;
+}
+
+.hero {
+  padding-top: 100px;
+  padding-bottom: 150px;
+  display: flex;
+  column-gap: 14px;
+}
+
+.hero-left,
+.hero-right {
+  flex: 1;
+}
+
+.hero-right {
+  color: var(--white-low);
+  background-color: #6d747d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-h1 {
+  margin: 0;
+  color: var(--white);
+}
+
+.hero-p {
+  margin-top: 0;
+  color: var(--white-low);
+}
+
+.hero-h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-sign-up {
+  color: var(--white);
+  background-color: #3882f6;
+  color: var(--white);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 8px 32px;
+  border: 0;
+  border-radius: 8px;
 }
