@@ -193,3 +193,12 @@ body {
   padding: 0 28px;
   height: 34px;
 }
+
+.footer {
+  background-color: var(--blue-dark);
+  color: var(--white-low);
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
