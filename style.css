@@ -1,3 +1,7 @@
+:root {
+  --white: #f9faf8;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -11,4 +15,31 @@ body {
 *:before,
 *:after {
   box-sizing: inherit;
+}
+
+.nav {
+  background-color: #1f2937;
+  padding: 8px 10% 8px 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-header {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.nav-list {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  column-gap: 24px;
+}
+
+.nav-list-item-link {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 18px;
 }
