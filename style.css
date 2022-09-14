@@ -152,3 +152,44 @@ body {
   text-align: end;
   margin-top: 12px;
 }
+
+.cta {
+  padding: 80px 0;
+}
+
+.cta-box {
+  background-color: var(--blue);
+  border-radius: 6px;
+  margin: 0 auto;
+  width: 70%;
+  padding: 44px 132px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-header,
+.cta-p {
+  margin: 0;
+}
+
+.cta-header {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.cta-p {
+  color: var(--white-low);
+}
+
+.cta-btn {
+  background: transparent;
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 900;
+  border: 2px solid var(--white);
+  border-radius: 8px;
+  padding: 0 28px;
+  height: 34px;
+}
